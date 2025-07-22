@@ -16,7 +16,11 @@
     ],
     "scheme": "rather",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "nz.medet.rather",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -26,6 +30,11 @@
     },
     "web": {
       "favicon": "./src/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1e675800-b060-4dcb-acff-ee0865f3b5e8"
+      }
     }
   }
 }
